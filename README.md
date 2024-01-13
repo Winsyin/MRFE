@@ -2,7 +2,7 @@
 Multi-resolution sequence and structure feature extraction for binding site prediction
 # Dependency 
 pytorch 1.10  
-sklearn
+sklearn 
 python 3.7  
 genism 3.8.3
 
