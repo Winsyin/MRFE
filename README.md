@@ -12,5 +12,9 @@ genism 3.8.3
 
 # Usage
 To predict the secondary structure of circRNAs, you should ensure that RNAfold is installed, which can be downloaded from https://www.tbi.univie.ac.at/RNA/, using the tutorial found at https://www.tbi.univie.ac.at/RNA/tutorial/#sec3_1.
-You can then simply run python train.py --protein RBP_name --modelType your_circRNA2Vec_model_path --num_levels number_of_forward_residual_SCI-Block_stacks to train the model.
+
+Then simply run this command to train the model.
+
+python train.py --protein RBP_name --modelType your_circRNA2Vec_model_path --num_levels number_of_forward_residual_SCI-Block_stacks
+
 
