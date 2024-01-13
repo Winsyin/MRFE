@@ -7,11 +7,13 @@ python 3.7
 genism 3.8.3
 
 # Content 
-./Datasets: the dataset with label and sequence, including circRNAs and linear RNA datasets.  
-./circRNA2Vec: circRNA word vector model trained by iCircRBP-DHN(https://academic.oup.com/bib/article/22/4/bbaa274/5943796?login=true)
+./circRNA-RBP: the dataset with label and sequence.  
+
 
 # Usage
 To predict the secondary structure of circRNAs, you should ensure that RNAfold is installed, which can be downloaded from https://www.tbi.univie.ac.at/RNA/, using the tutorial found at https://www.tbi.univie.ac.at/RNA/tutorial/#sec3_1.
+
+circRNA word vector model trained by iCircRBP-DHN(https://academic.oup.com/bib/article/22/4/bbaa274/5943796?login=true) can be downloaded from 
 
 Then simply run this command to train the model.
 
