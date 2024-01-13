@@ -13,7 +13,7 @@ genism 3.8.3
 # Usage
 To predict the secondary structure of circRNAs, you should ensure that RNAfold is installed, which can be downloaded from https://www.tbi.univie.ac.at/RNA/, using the tutorial found at https://www.tbi.univie.ac.at/RNA/tutorial/#sec3_1.
 
-circRNA word vector model trained by iCircRBP-DHN(https://academic.oup.com/bib/article/22/4/bbaa274/5943796?login=true) can be downloaded from 
+circRNA word vector model trained by iCircRBP-DHN(https://academic.oup.com/bib/article/22/4/bbaa274/5943796?login=true) can be downloaded from https://github.com/houzl3416/iCircRBP-DHN.
 
 Then simply run this command to train the model.
 
