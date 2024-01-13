@@ -15,7 +15,7 @@ To predict the secondary structure of circRNAs, you should ensure that RNAfold i
 
 circRNA word vector model trained by iCircRBP-DHN(https://academic.oup.com/bib/article/22/4/bbaa274/5943796?login=true) can be downloaded from https://github.com/houzl3416/iCircRBP-DHN.
 
-Then simply run this command to train the model.
+Then simply run this command to train the MRFE.
 
 python train.py --protein RBP_name --modelType your_circRNA2Vec_model_path --num_levels number_of_forward_residual_SCI-Block_stacks
 
