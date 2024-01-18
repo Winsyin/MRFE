@@ -17,5 +17,5 @@ circRNA word vector model trained by iCircRBP-DHN(https://academic.oup.com/bib/a
 
 python train.py --protein RBP_name --modelType your_circRNA2Vec_model_path --num_levels number_of_forward_residual_SCI-Block_stacks
 
-2.If you want to use RNAfold prediction data sets of base pairing, to download and install at https://www.tbi.univie.ac.at/RNA/.
+2.If you want to use RNAfold and bpRNA to handle other data sets, can be in https://www.tbi.univie.ac.at/RNA/ and https://github.com/hendrixlab/bpRNA to download and install.
 
