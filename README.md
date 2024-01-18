@@ -14,6 +14,7 @@ circRNA word vector model trained by iCircRBP-DHN(https://academic.oup.com/bib/a
 
 # Usage
 1.Unzip the RBP dataset under./dataset, then simply run the following command to train MRFE.
+
 python train.py --protein RBP_name --modelType your_circRNA2Vec_model_path --num_levels number_of_forward_residual_SCI-Block_stacks
 
 2.To predict the secondary structure of circRNAs, you should ensure that RNAfold is installed, which can be downloaded from https://www.tbi.univie.ac.at/RNA/, using the tutorial found at https://www.tbi.univie.ac.at/RNA/tutorial/#sec3_1.
