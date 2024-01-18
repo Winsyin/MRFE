@@ -17,5 +17,5 @@ circRNA word vector model trained by iCircRBP-DHN(https://academic.oup.com/bib/a
 
 python train.py --protein RBP_name --modelType your_circRNA2Vec_model_path --num_levels number_of_forward_residual_SCI-Block_stacks
 
-2.To predict the secondary structure of circRNAs, you should ensure that RNAfold is installed, which can be downloaded from https://www.tbi.univie.ac.at/RNA/, using the tutorial found at https://www.tbi.univie.ac.at/RNA/tutorial/#sec3_1.
+2.If you want to use RNAfold prediction data sets of base pairing, to download and install at https://www.tbi.univie.ac.at/RNA/.
 
